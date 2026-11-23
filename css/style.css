@@ -1,0 +1,137 @@
+body {
+    font-family : Arial,sans-serif;
+    background-color : whitesmoke;
+    color: black;
+    margin : 0;
+    padding:0;
+}
+
+header {
+    background-color : navy;
+    color: white;
+    text-align : center;
+    padding:40px;
+}
+
+
+
+main {
+    width: 80%;
+    margin: 30px auto;
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+h2 {
+    color: teal;
+}
+
+footer {
+    background-color: navy;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+nav {
+    background-color: midnightblue;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    font-size: 16px;
+}
+
+nav a:hover {
+    color: lightblue;
+}
+
+
+
+.profile-picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    object-fit: cover;
+    display: block;
+    margin: 20px auto;
+}
+
+
+
+.project-card {
+    background-color: whitesmoke;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+
+.project-card h3 {
+    color: teal;
+}
+
+
+.project-card a {
+    color: navy;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.project-card a:hover {
+    color: teal;
+}
+
+
+/* Contact form styling */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 500px;
+    margin: 20px auto;
+}
+
+form label {
+    font-weight: bold;
+    color: navy;
+}
+
+form input,
+form textarea {
+    padding: 12px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+form input:focus,
+form textarea:focus {
+    outline: 2px solid teal;
+}
+
+form button {
+    background-color: navy;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: teal;
+}
+
+#formResponse {
+    text-align: center;
+    color: teal;
+    font-weight: bold;
+}
+
